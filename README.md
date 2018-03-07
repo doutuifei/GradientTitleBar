@@ -41,7 +41,7 @@
          });
 ```
 
-然后运行，看效果，缓慢滑动没有问题，快速滑动，功能按钮的背景没有消失~~~
+然后运行，看效果，缓慢滑动没有问题，快速滑动，功能按钮的背景没有消失~~~<br/>
 ![img](https://github.com/mzyq/GradientTitleBar/blob/master/img/2.gif)
 
 ## 修正代码
@@ -124,3 +124,20 @@ scrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener
   阿里的字体图标，可以动态改变颜色，具体用法自行百度
 
 * 华为的虚拟按键可能有问题，```Sofia```还没有兼容好
+
+# License
+```
+Copyright 2017 Yan Zhenjie
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
