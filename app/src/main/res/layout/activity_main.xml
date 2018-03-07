@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/neisha" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1600dp"
+                android:background="@android:color/darker_gray"/>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/txTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="商品详情"
+            android:textColor="@android:color/transparent"
+            android:textSize="16sp" />
+
+        <com.muzi.gradienttitlebar.CircleRelativeLayout
+            android:id="@+id/btnLeft"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            app:background_color="#80000000">
+
+            <com.muzi.gradienttitlebar.IconFont
+                android:id="@+id/btnLeftIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="&#xe616;"
+                android:textColor="@android:color/white"
+                android:textSize="13sp" />
+
+        </com.muzi.gradienttitlebar.CircleRelativeLayout>
+
+        <com.muzi.gradienttitlebar.CircleRelativeLayout
+            android:id="@+id/btnRight"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            app:background_color="#80000000">
+
+            <com.muzi.gradienttitlebar.IconFont
+                android:id="@+id/btnRightIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="&#xe621;"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+        </com.muzi.gradienttitlebar.CircleRelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
