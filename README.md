@@ -96,10 +96,10 @@ scrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener
 当滑动距离超过参照物的高度```scrollHeight```就强制设置为想要的效果 <br/>
 加上一个```boolean isCommitColor```为了节约内存
 
-# Library
+## Library
 * [沉浸式状态栏：Sofia](https://github.com/yanzhenjie/Sofia)
 
-# 注意
+## 注意
 * ```theme```要设置成全屏
 ```
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -125,7 +125,7 @@ scrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener
 
 * 华为的虚拟按键可能有问题，```Sofia```还没有兼容好
 
-# License
+## License
 ```
 Copyright 2017 Mu Zi
 
